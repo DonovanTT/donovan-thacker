@@ -32,7 +32,7 @@ function Navbar(){
 
     return (
         <nav className="navbar sticky">
-            <Link to="/" className="navbar-logo"> 
+            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}> 
                 DONOVAN 
             </Link>
             <div className="menu-icon" onClick={handleClick}>

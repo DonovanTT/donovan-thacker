@@ -5,17 +5,9 @@ export default function Tutorials(){
     return(
         <div>
             <div className="tutorials">
-                <h1 >
-                    <Link to="/TutorialList" className="tutorial-link"> TUTORIALS </Link>
-
-                    
-                </h1>
+                <h1> TUTORIALS </h1>
             </div>
             <div className="Page Padded">
-                <h1 className="Centered"> TUTORIALS </h1>
-
-                <br/> 
-
                 <p> I find that I learn best by taking notes. I also find that I frequently revisit my notes when programming because I work like a machine but don't have the memory of one. </p>
 
                 <br/> 
