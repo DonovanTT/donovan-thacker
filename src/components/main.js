@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 
-import Navbar from './Navbar';
-import Home from './home';
-import Platform from './platform';
-import Welcome from './welcome';
-import Tutorials from './pages/Tutorials'
-import TutorialList from './pages/TutorialList'
-import About from './pages/About'
+import Navbar from './Navbar.js';
+import Home from './home.js';
+import Platform from './platform.js';
+import Welcome from './welcome.js';
+import Tutorials from './pages/Tutorials.js'
+import TutorialList from './pages/TutorialList.js'
+import About from './pages/About.js'
 
 class Main extends Component {
     render() {
