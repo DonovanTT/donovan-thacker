@@ -11,13 +11,13 @@ class About extends Component {
                 <br/>
 
                 <p> 
-                My name is Donovan. I'm a neophile with an eye for novelty in the ordinary. When I'm dead I want my wikipedia page to be cooler than Da Vinci's.
+                My name is Donovan. I'm a neophile with an eye for novelty in the ordinary. My goal in life is to have a cooler Wikipedia page than Da Vinci before I die.
                 <br/><br/>
-                I've wanted to design video games since I was a little kid, so I learned to program. Pretty soon I'll link to some games I'm working on here. I'm also really excited about blockchain technology, and I want to work with AI, too.
+                I've wanted to design video games since I was a little kid, so I learned to program. Pretty soon I'll link to some games I'm working on here. I also think blockchain is really cool, and I want to work with AI, too.
                 <br/><br/>
                 I want to be a rock star and go Hollywood. I want to rubbertramp around the US in a van and sail around the mediterranean.
                 <br/><br/>
-                I want to make enough money to outpace the theft of wealth by the ruling class and leave my kids more than I started with. But I want to be able to afford kids before I have them.
+                I want to make enough money to outpace the theft of wealth by the ruling class and leave my kids more than I started with. And I want to be able to afford kids before I have them.
                 <br/><br/>
                 My favorite color is purple but it didn't look good so I made this website with a sort of fuschia color instead.
                 <br/><br/>
