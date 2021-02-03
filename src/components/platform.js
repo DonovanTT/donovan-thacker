@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 
 import '../App.css';
 
-import Navbar from './Navbar';
-
 class Platform extends Component {
     render() {
         return (
