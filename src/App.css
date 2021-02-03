@@ -1,22 +1,87 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.tutorials {
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
+  font-size: 4vw;
+  background-image: url(./images/alleyvan.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.tutorials:hover {
+  font-size: 5vw;
+}
+
+.tutorial-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tutorial-link:hover {
+  color: rgb(255, 17, 128);
+  cursor: pointer;
+}
+
+.App {
+  background-color: rgb(26, 23, 23);
+  min-height: 100vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.Navbar {
+  background-color: #1c1e20;
+  padding: 4px;
+  padding-left: 12px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.Platform {
+  display: block;
+  justify-content: center;
+  align-items: top;
+  color: blue;
+}
+
 .Link {
+  color: rgb(255, 17, 128);
   text-decoration: none;
 }
 
-.welcome {
-  padding-left: 200px;
+.Title {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.Centered {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Padded {
+  padding: 20px;
+}
+
+.Page {
+  background-color: rgb(26, 23, 23);
+  margin-left: min(2vw, 200px);
+  margin-right: min(2vw, 200px);
+  margin-top: 0px;
 }
