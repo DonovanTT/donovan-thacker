@@ -17,6 +17,10 @@
   font-weight: bold;
 }
 
+.navbar-logo:hover {
+  color: rgb(255, 132, 17);
+}
+
 .fa-firstdraft {
   margin-left: 0.5rem;
   font-size: 1.6rem;
@@ -60,7 +64,7 @@
 
 .nav-links:hover {
   color: #ffffff;
-  background-color: rgb(255, 17, 128);
+  background-color: rgb(255, 132, 17);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }

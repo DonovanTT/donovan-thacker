@@ -1,7 +1,7 @@
 export const MenuItems = [
     {
         title: "React",
-        path: "/react",
+        path: "/ReactTutorials",
         cName: "dropdown-link"
     }
 ];

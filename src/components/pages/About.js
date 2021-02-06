@@ -5,17 +5,18 @@ import '../../App.css';
 class About extends Component {
     render() {
         return (
-            <div className="Page Padded">
+            <div className="page padded">
+                <div className="selfie"></div>
                 <h2> About Me </h2>
-
                 <br/>
-
                 <p> 
                 My name is Donovan. I'm a neophile with an eye for novelty in the ordinary. My goal in life is to have a cooler Wikipedia page than Da Vinci before I die.
                 <br/><br/>
                 I've wanted to design video games since I was a little kid, so I learned to program. Pretty soon I'll link to some games I'm working on here. I also think blockchain is really cool, and I want to work with AI, too.
                 <br/><br/>
-                I want to be a rock star and go Hollywood. I want to rubbertramp around the US in a van and sail around the mediterranean.
+                I want to be a rock star and go Hollywood. I want to rubbertramp around the US in a van and sail around the mediterranean. Hard pass on dining and dying on wild potatoes in Alaska, though.
+                <br/><br/>
+                I love worldbuilding and storytelling. I'm working on several books - expect to see them here, as well.
                 <br/><br/>
                 I want to make enough money to outpace the theft of wealth by the ruling class and leave my kids more than I started with. And I want to be able to afford kids before I have them.
                 <br/><br/>
@@ -24,16 +25,12 @@ class About extends Component {
                 Every time I make a &lt;br/&gt; I think of the money printer. 
                 <br/><br/>
                 &#128142; &#128142; &#128400;
-                <br/><br/>
-
                 </p>
 
-                 
+                <br/><br/>
 
                 <h2> About This Website </h2>
-
                 <br/>
-
                 <p>
                 I find that I learn best by taking notes. I also find that I frequently revisit my notes when programming because I work like a machine but don't have the memory of one.
                 <br/><br/>
