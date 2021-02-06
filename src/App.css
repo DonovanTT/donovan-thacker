@@ -19,8 +19,8 @@
   margin-right: auto;
   height: 30vh;
   width: 30vh;
-  padding: 20%;
-  border: 10px solid #ffffff;
+  padding: 15%;
+  border: 15px solid #ffffff;
   border-radius: 50%;
   background-position: center;
   background-size: cover;
@@ -107,4 +107,11 @@
 
 .headline-title {
   color: rgb(255, 17, 128);
+}
+
+@media screen and (max-width: 960px) {
+  .selfie {
+    padding: 30%;
+    border: 5px solid #ffffff;
+  }
 }
