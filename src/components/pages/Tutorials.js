@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Headline from '../Headline';
+import { Link } from 'react-router-dom';
 
 export default function Tutorials(){
     return(
@@ -9,9 +9,9 @@ export default function Tutorials(){
                 <h1> TUTORIALS </h1>
             </div>
             <div className="page padded">
-                <h1 className="centered"> React </h1>
-                <br/>
-                <Headline title="Starting Your First Project" author="Donovan Thacker" />
+                <h1> <Link to="/ReactTutorials" className="link"> React </Link> </h1>
+                <p> Guides for working with the React framework. </p>
+                <br/><br/>
             </div>
         </div>
     )
