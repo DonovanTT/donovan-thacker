@@ -28,8 +28,6 @@ class Main extends Component {
                         <Route path="/ReactTutorials" component={ReactTutorials} />
                     </Switch>
                 </div>
-                
-                <Footer />
             </div>
         )
     }
