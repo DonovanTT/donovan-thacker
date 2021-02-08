@@ -1,6 +1,6 @@
 .navbar {
   background: linear-gradient(90deg, rgb(14, 14, 14) 0%, rgb(26, 23, 23) 100%);
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,17 +8,13 @@
 }
 
 .navbar-logo {
-  color: rgb(255, 17, 128);
+  color: rgb(153, 16, 153);
   justify-self: start;
   margin-left: 0px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   font-weight: bold;
-}
-
-.navbar-logo:hover {
-  color: rgb(255, 132, 17);
 }
 
 .fa-firstdraft {
@@ -28,7 +24,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(6, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
@@ -56,7 +52,7 @@
 }
 
 .nav-links {
-  color: rgb(255, 17, 128);
+  color: rgb(153, 16, 153);
   font-weight: bold;
   text-decoration: none;
   padding: 0rem 0.5rem;
@@ -64,13 +60,13 @@
 
 .nav-links:hover {
   color: #ffffff;
-  background-color: rgb(255, 132, 17);
+  background-color: rgb(153, 16, 153);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: rgb(255, 17, 128);
+  color: rgb(153, 16, 153);
 }
 
 .nav-links-mobile {
@@ -95,7 +91,7 @@
     width: 100%;
     height: 90vh;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -130,7 +126,7 @@
   }
 
   .nav-links:hover {
-    background-color: rgb(255, 17, 128);
+    background-color: rgb(153, 16, 153);
     border-radius: 0;
   }
 
@@ -152,7 +148,7 @@
   }
 
   .fa-times {
-    color: rgb(255, 17, 128);
+    color: rgb(153, 16, 153);
     font-size: 2rem;
   }
 
@@ -163,7 +159,7 @@
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
-    background: rgb(255, 17, 128);
+    background: rgb(153, 16, 153);
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
@@ -172,7 +168,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: rgb(255, 17, 128);
+    color: rgb(153, 16, 153);
     transition: 250ms;
   }
 
