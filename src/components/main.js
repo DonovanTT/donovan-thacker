@@ -6,7 +6,7 @@ import '../App.css';
 import Navbar from './Navbar';
 import Home from './home';
 import Footer from './Footer';
-
+import Projects from './pages/Projects'
 import Platform from './platform';
 import Welcome from './welcome';
 import Tutorials from './pages/Tutorials';
@@ -26,6 +26,7 @@ class Main extends Component {
                         <Route path="/Tutorials" component={Tutorials} />
                         <Route path="/About" component={About} />
                         <Route path="/ReactTutorials" component={ReactTutorials} />
+                        <Route path="/Projects" component={Projects} />
                     </Switch>
                 </div>
                 <Footer />

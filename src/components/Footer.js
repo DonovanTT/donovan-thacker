@@ -8,10 +8,13 @@ function footer() {
         <div className="footer-container">
             <section className="footer-subscription">
                 <p className="footer-subscription-heading">
-                    Epic Footer with Great Content
+                    Really, he was.
                 </p>
                 <p className="footer-subscription-text">
-                    ...
+                    Thanks for clicking! This website was developed with React. I'm looking for work as a Junior Software Engineer, if you're hiring! The link to this website's GitHub repository can be found below!
+                </p>
+                <p className="footer-subscription-text">
+                    Or, if you are in the market for a new website for you or your business at reasonable expense, don't hesitate to contact me!
                 </p>
                 <div className="input-areas">
                     <form>
@@ -23,7 +26,6 @@ function footer() {
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>About</h2>
-                        <Link to="/About">About Me</Link>
                     </div>
                     <div className="footer-link-items">
                         <h2>About Us</h2>
@@ -35,11 +37,7 @@ function footer() {
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>About Us</h2>
-                        <Link to="/Platform">Platform</Link>
-                        <Link to="/Platform">Platform</Link>
-                        <Link to="/Platform">Platform</Link>
-                        <Link to="/Platform">Platform</Link>
+                        <h2>Connect</h2>
                     </div>
                     <div className="footer-link-items">
                         <h2>About Us</h2>

@@ -10,7 +10,7 @@ class About extends Component {
                 <h2> About Me </h2>
                 <br/>
                 <p>
-                The written word is hopelessly ill-equipped to capture the essence of the abstract, multifaceted eternity that is the human mind. It's linear structure fails to convey the sense of breadth that accompanies and defines the human experience. Nonetheless, I'll venture to do my best at representing myself here.
+                The written word is hopelessly ill-equipped to capture the essence of the abstract eternity that is the human mind. It's linear structure fails to convey the sense of breadth that accompanies and defines the human experience. Nonetheless, I'll venture to do my best at representing myself here.
                 <br/><br/>
                 My name is Donovan. My goal in life is to have a cooler Wikipedia page than Da Vinci before I die.
                 <br/><br/>
@@ -19,12 +19,6 @@ class About extends Component {
                 I intend to use these skills to develop games. I'm also very keen on blockchain technology and artificial intelligence. I believe these, along with quantum computers, will be among the most defining technologies of the 21st Century. 
                 <br/><br/>
                 I'm also an aspiring author. As with video games, the true joy, I think, lies in the worldbuilding and the storytelling, while the real value (and the harder work) lies in the details. In other words, diligence is the most powerful force in the universe, and while I have many ideas for both video games and novels, it's is a learned skill. Here's to learning!! 🥂
-                <br/><br/>
-                I want to make enough money to outpace the theft of wealth by the ruling class and leave my kids more than I started with. And I want to be able to afford kids before I have them.
-                <br/><br/>
-                My favorite color is purple.
-                <br/><br/>
-                &#128142; &#128142; &#128400;
                 </p>
 
                 <br/><br/>
