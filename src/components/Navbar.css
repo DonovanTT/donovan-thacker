@@ -8,13 +8,44 @@
 }
 
 .navbar-logo {
-  color: rgb(153, 16, 153);
-  justify-self: start;
   margin-left: 0px;
+  justify-self: start;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   font-weight: bold;
+  animation-direction: normal;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-name: logoColors;
+  animation-timing-function: ease;
+}
+
+@keyframes logoColors {
+  0% {
+    color: rgb(153, 16, 153);
+  }
+  20% {
+    color: rgb(10, 21, 172);
+  }
+  30% {
+    color: rgb(16, 134, 138);
+  }
+  40% {
+    color: rgb(6, 172, 28);
+  }
+  60% {
+    color: rgb(172, 169, 7);
+  }
+  80% {
+    color: rgb(199, 10, 10);
+  }
+  90% {
+    color: rgb(255, 17, 128);
+  }
+  100% {
+    color: rgb(153, 16, 153);
+  }
 }
 
 .fa-firstdraft {
@@ -24,7 +55,7 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(6, auto);
+  grid-template-columns: repeat(7, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;

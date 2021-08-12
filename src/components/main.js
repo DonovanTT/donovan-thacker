@@ -4,14 +4,15 @@ import { Route, Switch } from 'react-router-dom';
 import '../App.css';
 
 import Navbar from './Navbar';
-import Home from './home';
 import Footer from './Footer';
+import Home from './pages/home';
 import Projects from './pages/Projects'
-import Platform from './platform';
-import Welcome from './welcome';
+import ToDo from './pages/ToDo';
+import Welcome from './pages/welcome';
 import Tutorials from './pages/Tutorials';
-import About from './pages/About';
 import ReactTutorials from './pages/ReactTutorials';
+import AboutWebsite from './pages/AboutWebsite';
+import AboutMe from './pages/AboutMe';
 
 class Main extends Component {
     render() {
@@ -22,11 +23,12 @@ class Main extends Component {
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route path="/Welcome" component={Welcome} />
-                        <Route path="/Platform" component={Platform} />
+                        <Route path="/ToDo" component={ToDo} />
                         <Route path="/Tutorials" component={Tutorials} />
-                        <Route path="/About" component={About} />
+                        <Route path="/AboutMe" component={AboutMe} />
                         <Route path="/ReactTutorials" component={ReactTutorials} />
                         <Route path="/Projects" component={Projects} />
+                        <Route path="/AboutWebsite" component={AboutWebsite} />
                     </Switch>
                 </div>
                 <Footer />
