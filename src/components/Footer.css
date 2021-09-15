@@ -38,6 +38,13 @@
 
 .footer-link-wrapper {
   display: flex;
+  padding: 15px;
+}
+
+.whiteLine {
+  height: 1px;
+  background-color: #ccc;
+  border: none;
 }
 
 .footer-link-items {
@@ -45,7 +52,7 @@
   flex-direction: column;
   align-items: center;
   margin: 16px;
-  text-align: left;
+  text-align: center;
   width: 20vw;
   box-sizing: border-box;
 }
@@ -67,6 +74,10 @@
 .footer-link-items a:hover {
   color: rgb(153, 16, 153);
   transition: 0.3s ease-out;
+}
+
+.footer-small-text {
+  color: #aaa11a;
 }
 
 @media screen and (max-width: 960px) {

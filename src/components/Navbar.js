@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button'
 import { Dropdown } from './Dropdown'
 import './Navbar.css'
+import '../App.css';
 
 function Navbar(){
     const [click, setClick] = useState(false);
@@ -27,7 +28,7 @@ function Navbar(){
 
     return (
         <nav className="navbar sticky">
-            <Link to="/" className="navbar-logo" onClick={closeMobileMenu}> 
+            <Link to="/" className='navbar-logo shocking' onClick={closeMobileMenu}> 
                 DONOVAN 
             </Link>
             <div className="menu-icon" onClick={handleClick}>
@@ -42,6 +43,13 @@ function Navbar(){
                 </li>
 
                 <li className="nav-item">
+                    <Link to="/Resume" className="nav-links" onClick={closeMobileMenu}>
+                        Resume
+                    </Link>
+                </li>
+
+                {/* 
+                <li className="nav-item">
                     <Link to="/projects" className="nav-links" onClick={closeMobileMenu}>
                         Projects
                     </Link>
@@ -52,37 +60,18 @@ function Navbar(){
                     onMouseLeave = {onMouseLeave}
                 >
                     <Link to="/tutorials" className="nav-links" onClick={closeMobileMenu}>
-                        Tutorials <i className = "fas fa-caret-down" />
+                        Services <i className = "fas fa-caret-down" />
                     </Link>
                     {dropdown && <Dropdown />}
                 </li>
+                */}
 
                 <li className="nav-item">
-                    <Link to="/ToDo" className="nav-links" onClick={closeMobileMenu}>
-                        To Do
-                    </Link>
-                </li>
-
-
-                <li className="nav-item">
-                    <Link to="/connect" className="nav-links" onClick={closeMobileMenu}>
-                        Connect
-                    </Link>
-                </li>
-
-                <li className="nav-item">
-                    <Link to="/AboutMe" className="nav-links" onClick={closeMobileMenu}>
-                        About
-                    </Link>
-                </li>
-
-                <li className="nav-item">
-                    <Link to="/connect" className="nav-links-mobile" onClick={closeMobileMenu}>
-                        Sign Up
+                    <Link to="/Contact" className="nav-links" onClick={closeMobileMenu}>
+                        Contact
                     </Link>
                 </li>
             </ul>
-            <Button />
         </nav>
     )
 }

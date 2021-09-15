@@ -8,44 +8,13 @@
 }
 
 .navbar-logo {
+  color: rgb(164, 30, 188);
   margin-left: 0px;
   justify-self: start;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   font-weight: bold;
-  animation-direction: normal;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-name: logoColors;
-  animation-timing-function: ease;
-}
-
-@keyframes logoColors {
-  0% {
-    color: rgb(153, 16, 153);
-  }
-  20% {
-    color: rgb(10, 21, 172);
-  }
-  30% {
-    color: rgb(16, 134, 138);
-  }
-  40% {
-    color: rgb(6, 172, 28);
-  }
-  60% {
-    color: rgb(172, 169, 7);
-  }
-  80% {
-    color: rgb(199, 10, 10);
-  }
-  90% {
-    color: rgb(255, 17, 128);
-  }
-  100% {
-    color: rgb(153, 16, 153);
-  }
 }
 
 .fa-firstdraft {
@@ -83,7 +52,7 @@
 }
 
 .nav-links {
-  color: rgb(153, 16, 153);
+  color: rgb(164, 30, 188);
   font-weight: bold;
   text-decoration: none;
   padding: 0rem 0.5rem;
@@ -91,13 +60,13 @@
 
 .nav-links:hover {
   color: #ffffff;
-  background-color: rgb(153, 16, 153);
+  background-color: rgb(164, 30, 188);
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-  color: rgb(153, 16, 153);
+  color: rgb(164, 30, 188);
 }
 
 .nav-links-mobile {
@@ -157,11 +126,12 @@
   }
 
   .nav-links:hover {
-    background-color: rgb(153, 16, 153);
+    background-color: rgb(164, 30, 188);
     border-radius: 0;
   }
 
   .navbar-logo {
+    color: rgb(164, 30, 188);
     position: absolute;
     top: 0;
     left: 0;
@@ -179,7 +149,7 @@
   }
 
   .fa-times {
-    color: rgb(153, 16, 153);
+    color: rgb(164, 30, 188);
     font-size: 2rem;
   }
 
@@ -190,7 +160,7 @@
     margin: 2rem auto;
     border-radius: 4px;
     width: 80%;
-    background: rgb(153, 16, 153);
+    background: rgb(164, 30, 188);
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
@@ -199,7 +169,7 @@
 
   .nav-links-mobile:hover {
     background: #fff;
-    color: rgb(153, 16, 153);
+    color: rgb(164, 30, 188);
     transition: 250ms;
   }
 

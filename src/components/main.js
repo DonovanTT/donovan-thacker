@@ -7,7 +7,7 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Home from './pages/home';
 import Projects from './pages/Projects'
-import ToDo from './pages/ToDo';
+import Resume from './pages/Resume';
 import Welcome from './pages/welcome';
 import Tutorials from './pages/Tutorials';
 import ReactTutorials from './pages/ReactTutorials';
@@ -23,7 +23,7 @@ class Main extends Component {
                     <Switch>
                         <Route exact path="/" component={Home} />
                         <Route path="/Welcome" component={Welcome} />
-                        <Route path="/ToDo" component={ToDo} />
+                        <Route path="/Resume" component={Resume} />
                         <Route path="/Tutorials" component={Tutorials} />
                         <Route path="/AboutMe" component={AboutMe} />
                         <Route path="/ReactTutorials" component={ReactTutorials} />

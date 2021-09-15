@@ -3,61 +3,44 @@ import './Footer.css';
 
 import { Link } from 'react-router-dom';
 
+const ColoredLine = ({ color }) => (
+    <hr
+        style={{
+            color: color,
+            backgroundColor: color,
+            height: 1,
+            width: 350,
+            marginBottom: 10
+        }}
+    />
+);
+
 function footer() {
     return (
         <div className="footer-container">
-            <section className="footer-subscription">
-                <div>
-                    <h4 className="platform">Seeking to Hire a Software Engineer?</h4>
-                    <br/>
-                    <h4 className="platform">In the Market for a New Website?</h4>
-                </div>
-                <div className="input-areas">
-                    {/*
-                        <form>
-                            <input type="email" name="email" placeholder="enter criticisms" className="footer-input"/>
-                        </form>
-                    */}
-                    
-                </div>
-            </section>
             <div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>About</h2>
-                        <Link to="/AboutMe">Me</Link>
-                        <Link to="/AboutWebsite">The Website</Link>
+                        <h2>Home</h2>
                     </div>
                     <div className="footer-link-items">
-                        <h2>Connect</h2>
-                        
-                        <Link to="/Platform">Platform</Link>
-                        <Link to="/Platform">Platform</Link>
-                        <Link to="/Platform">Platform</Link>
+                        <h2>Resume</h2>
                     </div>
                 </div>
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
-                        <h2>Connect</h2>
+                        <h2>Contact</h2>
                     </div>
                     <div className="footer-link-items">
                         <h2>Resources</h2>
-                        <Link to="/Platform">Platform</Link>
-                        <Link to="/Platform">Platform</Link>
-                        <Link to="/Platform">Platform</Link>
-                        <Link to="/Platform">Platform</Link>
                     </div>
                 </div>
             </div>
 
+            <ColoredLine color="white"/>
+
             <p className="footer-subscription-heading">
-                © Donovan Thacker, 2021
-            </p>
-            <p className="footer-subscription-text">
-                Thanks for clicking! This website was developed with React. I'm looking for work as a Junior Software Engineer, if you're hiring! The link to this website's GitHub repository can be found below!
-            </p>
-            <p className="footer-subscription-text">
-                Or, if you are in the market for a new website for you or your business at reasonable expense, don't hesitate to contact me!
+                <h6>© Donovan Thacker, 2021 - all rights reserved</h6>
             </p>
         </div>
     )
