@@ -18,7 +18,7 @@ const ColoredLine = ({ color }) => (
 function footer() {
     return (
         <div className="footer-container">
-            <div className="footer-links">
+            {/*<div className="footer-links">
                 <div className="footer-link-wrapper">
                     <div className="footer-link-items">
                         <h2>Home</h2>
@@ -37,7 +37,7 @@ function footer() {
                 </div>
             </div>
 
-            <ColoredLine color="white"/>
+            <ColoredLine color="white"/>*/}
 
             <p className="footer-subscription-heading">
                 <h6>© Donovan Thacker, 2021 - all rights reserved</h6>

@@ -29,7 +29,7 @@ function Navbar(){
     return (
         <nav className="navbar sticky">
             <Link to="/" className='navbar-logo shocking' onClick={closeMobileMenu}> 
-                DONOVAN 
+                DONOVAN
             </Link>
             <div className="menu-icon" onClick={handleClick}>
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -45,6 +45,12 @@ function Navbar(){
                 <li className="nav-item">
                     <Link to="/Resume" className="nav-links" onClick={closeMobileMenu}>
                         Resume
+                    </Link>
+                </li>
+
+                <li className="nav-item">
+                    <Link to="/Projects" className="nav-links" onClick={closeMobileMenu}>
+                        Projects
                     </Link>
                 </li>
 
@@ -67,8 +73,8 @@ function Navbar(){
                 */}
 
                 <li className="nav-item">
-                    <Link to="/Contact" className="nav-links" onClick={closeMobileMenu}>
-                        Contact
+                    <Link to="/Links" className="nav-links" onClick={closeMobileMenu}>
+                        Links
                     </Link>
                 </li>
             </ul>

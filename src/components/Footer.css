@@ -1,10 +1,11 @@
 .footer-container {
-  background-color: hsl(0, 0%, 14%);
+  background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: bottom;
+  padding-top: 10px;
 }
 
 .footer-subscription {
@@ -19,7 +20,7 @@
 }
 
 .footer-subscription-heading {
-  margin-bottom: 24px;
+  margin-bottom: 10px;
   font-size: 24px;
 }
 

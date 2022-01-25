@@ -15,7 +15,6 @@ class Home extends Component {
             splashAttribution: "",
             splashTextArray: [
                 "Rather than reasoning by analogy, you boil things down to the most fundamental truths you can imagine and you reason up from there.",
-                "Help!",
                 "It always seems impossible until it's done.",
                 "Shoot for the moon. Even if you miss, you'll land among the stars.",
                 "You just can't beat the person who never gives up.",
@@ -26,7 +25,6 @@ class Home extends Component {
             ],
             splashTextAuthorArray: [
                 "Elon Musk",
-                "Donovan Thacker",
                 "Nelson Mandela",
                 "Les Brown",
                 "Babe Ruth",
@@ -54,7 +52,19 @@ class Home extends Component {
                     <title>{ TITLE }</title>
                 </Helmet>
 
-                <div className="me1 title"></div>
+                <div className="me1 title segmented">
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg">
+                        <br/><br/><br/><br/><br/><br/><br/><br/>
+                        <br/><br/><br/><br/><br/><br/><br/><br/>
+                        <div className="multiLine + purpleText + outlinedText">
+                            <h1>SCROLL</h1>
+                            <h1>DOWN!</h1>
+                        </div>
+                        
+                    </div>
+                    <div className="quoteSeg"></div>
+                </div>
 
                 <div className="me2 title"></div>
                 
@@ -80,18 +90,61 @@ class Home extends Component {
 
                 <div className="me13 title"></div>
 
-                <p className="me13 title segmented">
+                <div className="me14 title"></div>
+
+                <div className="me14 title"></div>
+
+                <div className="me14 title segmented">
                     <div className="quoteSeg"></div>
 
                     <div className="quoteSeg"></div>
 
-                    <div className="quoteSeg">
+                    <div className="quoteSeg + whiteText">
                         <h3 className="quote">"{this.state.splashText}"</h3>
                         <br/>
                         <h5 className="quoteCred">- {this.state.splashAttribution}</h5>
                     </div>
+                </div>
 
-                </p>
+                <div className="me14 title segmented">
+                    <div className="quoteSeg">
+                        <h3 className="whiteText"> Hi, I'm Donovan Thacker. I'm a software and web developer from Poultney, Vermont.</h3>
+                    </div>
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg"></div>
+                </div>
+
+                <div className="me14 title segmented">
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg">
+                        <h3 className="whiteText"> I'm an aspiring game developer, author and entrepreneur.</h3>
+                    </div>
+                </div>
+
+                <div className="me14 title segmented">
+                    <div className="quoteSeg">
+                        <h3 className="whiteText"> I really want to work with blockchain technology and machine learning.</h3>
+                    </div>
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg"></div>
+                </div>
+
+                <div className="me14 title segmented">
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg">
+                        <h3 className="whiteText"> I love snowboarding, cooking, and chess.</h3>
+                    </div>
+                </div>
+
+                <div className="me14 title segmented">
+                    <div className="quoteSeg">
+                        <h3 className="whiteText"> I also love my kitten &lt;3. He's an orange tabby and his name is Chicken Nugget &Sigma;:3 </h3>
+                    </div>
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg"></div>
+                </div>
             </div>
         )
     }
