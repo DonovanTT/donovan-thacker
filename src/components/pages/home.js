@@ -138,9 +138,18 @@ class Home extends Component {
 
                 <div className="me14 title segmented">
                     <div className="quoteSeg">
+                        <h3 className="whiteText"> Check out some of the personal projects I've worked on and visit my links to reach out :)</h3>
                     </div>
                     <div className="quoteSeg"></div>
                     <div className="quoteSeg"></div>
+                </div>
+
+                <div className="me14 title segmented">
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg"></div>
+                    <div className="quoteSeg">
+                        <h3 className="whiteText"> More to come soon! </h3>
+                    </div>
                 </div>
             </div>
         )
