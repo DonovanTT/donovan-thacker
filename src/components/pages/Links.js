@@ -16,9 +16,9 @@ class Links extends Component {
                     <title>{ TITLE }</title>
                 </Helmet>
 
-                <a href={"mailto:" + "donovantthacker@gmail.com"}>
+                <a href={"mailto:" + "donovanthacker@outlook.com"}>
                     <h3> Email: </h3>
-                    <h6>donovantthacker@gmail.com</h6>
+                    <h6>donovanthacker@outlook.com</h6>
                 </a>
                 <br/>
                 <a href="https://www.linkedin.com/in/donovantthacker" target="_blank">

@@ -122,7 +122,7 @@ class Home extends Component {
 
                 <div className="me14 title segmented">
                     <div className="quoteSeg">
-                        <h3 className="whiteText"> I love snowboarding, cooking, and chess, and I'm learning to play the guitar.</h3>
+                        <h3 className="whiteText"> I love snowboarding, cooking, chess, and I'm learning to play the guitar.</h3>
                     </div>
                     <div className="quoteSeg"></div>
                     <div className="quoteSeg"></div>

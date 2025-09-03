@@ -40,7 +40,7 @@ function footer() {
             <ColoredLine color="white"/>*/}
 
             <p className="footer-subscription-heading">
-                <h6>© Donovan Thacker, 2021 - all rights reserved</h6>
+                <h6>© Donovan Thacker, 2025 - all rights reserved</h6>
             </p>
         </div>
     )
