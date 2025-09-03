@@ -56,26 +56,6 @@
   animation-timing-function: linear;
 }
 
-a:link {
-  color: rgb(59, 231, 217);
-  text-decoration: none;
-}
-
-a:visited {
-  color: rgb(164, 30, 188);
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-}
-
-a:active {
-  color: rgb(59, 231, 217);
-  text-decoration: none;
-}
-
 @keyframes shockingColors {
   0% {
     color: rgb(164, 30, 188);
@@ -114,6 +94,26 @@ a:active {
   100% {
     color: rgb(164, 30, 188);
   }
+}
+
+a:link {
+  color: rgb(59, 231, 217);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(164, 30, 188);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(59, 231, 217);
+  text-decoration: none;
 }
 
 .selfie {
@@ -350,9 +350,7 @@ a:active {
 }
 
 .resumeBlurb {
-  margin: 10px;
-  width: 440px;
-  max-width: 80vw;
+  margin: 20px;
 
   color: rgb(255, 255, 255);
   border-style: solid;
@@ -369,6 +367,7 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: rgb(170, 110, 180);
 }
 
 .centered {
@@ -383,8 +382,9 @@ a:active {
 
 .page {
   background-color: rgb(26, 23, 23);
-  margin-left: min(2vw, 200px);
-  margin-right: min(2vw, 200px);
+  max-width: 60ch;   /* keeps line length comfy */
+  margin: 0 auto;    /* centers it */
+  padding: 0 1rem;   /* tiny breathing room on phones */
   margin-top: 0px;
   padding-top: 100px;
 }
@@ -404,6 +404,10 @@ a:active {
 
 .blueText {
   color: rgb(59, 231, 217);
+}
+
+.projectText {
+  font-size: 22px
 }
 
 @media screen and (max-width: 960px) {

@@ -19,20 +19,26 @@ class Resume extends Component {
                 <h3 className="purpleText"> Technical Skills </h3>
                 <div className="skillsList">
                     <div className="skillGroup">
-                        <h5 className="skillBubble">C++ &nbsp; &#9733;  &#9733; &#9734;</h5>
-                        <h5 className="skillBubble">CSS &nbsp; &#9733;  &#9733;  &#9733;</h5>
-                        <h5 className="skillBubble">Express.js &nbsp; &#9733; &#9734; &#9734;</h5>
-                        <h5 className="skillBubble">Git &nbsp; &#9733;  &#9733; &#9734;</h5>
-                        <h5 className="skillBubble">GML &nbsp; &#9733;  &#9733; &#9733;</h5>
-                        <h5 className="skillBubble">HTML &nbsp; &#9733;  &#9733;  &#9733;</h5>
-                        <h5 className="skillBubble">Java &nbsp; &#9733; &#9733; &#9733;</h5>
-                        <h5 className="skillBubble">JavaScript &nbsp; &#9733;  &#9733;  &#9733;</h5>
-                        <h5 className="skillBubble">JSON &nbsp; &#9733;  &#9734;  &#9734;</h5>
-                        <h5 className="skillBubble">MongoDB &nbsp; &#9733;  &#9733; &#9734;</h5>
-                        <h5 className="skillBubble">Node.js &nbsp; &#9733;  &#9733;  &#9733;</h5>
-                        <h5 className="skillBubble">React &nbsp; &#9733;  &#9733;  &#9733;</h5>
-                        <h5 className="skillBubble">Redux &nbsp; &#9733; &#9734; &#9734;</h5>
-                        <h5 className="skillBubble">SQL &nbsp; &#9733;  &#9733; &#9734;</h5>
+                        <h5 className="skillBubble">&nbsp; ADO &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; ASP.NET &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; C++ &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; C# &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; CSS &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; Express.js &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; Git &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; GML &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; Heroku &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; HTML &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; Java &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; JavaScript &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; JSON &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; MongoDB &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; Netlify &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; Node.js &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; React &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; Redux &nbsp;</h5>
+                        <h5 className="skillBubble">&nbsp; SQL &nbsp;</h5>
+
                     </div>
                 </div>
                 <br/>
@@ -52,15 +58,19 @@ class Resume extends Component {
                 <h3 className="purpleText"> Experience </h3>
 
                 <div className="resumeBlurb">
+                    <h4>IT Systems Developer</h4>
+                    <div className="splitContent">
+                        <h6>Vermont Agency of Digital Services</h6>
+                        <h6>Oct 2021 - Present</h6>
+                    </div>
+                </div>
+                <div className="resumeBlurb">
                     <h4>Kitchen Manager</h4>
                     <div className="splitContent">
                         <h6>Taps Tavern</h6>
-                        <h6>Apr 2021 - Present</h6>
+                        <h6>Apr 2021 - Sep 2021</h6>
                     </div>
                 </div>
-
-                <br/>
-
                 <div className="resumeBlurb">
                     <h4>Line Cook</h4>
                     <div className="splitContent">
@@ -68,9 +78,6 @@ class Resume extends Component {
                         <h6>Aug 2019 - Apr 2021</h6>
                     </div>
                 </div>
-
-                <br/>
-
                 <div className="resumeBlurb">
                     <h4>Web Development Intern</h4>
                     <div className="splitContent">
@@ -78,9 +85,6 @@ class Resume extends Component {
                         <h6> &nbsp; Sep 2018 - Jun 2019 </h6>
                     </div>
                 </div>
-
-                <br/>
-
                 <div className="resumeBlurb">
                     <h4>Building Manager</h4>
                     <div className="splitContent">
@@ -88,9 +92,6 @@ class Resume extends Component {
                         <h6> Sep 2017 - Dec 2020 </h6>
                     </div>
                 </div>
-
-                <br/>
-
                 <div className="resumeBlurb">
                     <h4>Library Assistant</h4>
                     <div className="splitContent">
@@ -98,9 +99,6 @@ class Resume extends Component {
                         <h6> Aug 2016 - Dec 2016 </h6>
                     </div>
                 </div>
-
-                <br/>
-
                 <div className="resumeBlurb">
                     <h4>Eco-Rep</h4>
                     <div className="splitContent">
@@ -108,9 +106,6 @@ class Resume extends Component {
                         <h6> Aug 2016 - Dec 2016 </h6>
                     </div>
                 </div>
-
-                <br/>
-
                 <div className="resumeBlurb">
                     <h4>Cashier/Grocer/Produce Clerk/Deli Clerk</h4>
                     <div className="splitContent">
@@ -118,9 +113,6 @@ class Resume extends Component {
                         <h6> Nov 2014 - Aug 2019 </h6>
                     </div>
                 </div>
-
-                <br/>
-
                 <div className="resumeBlurb">
                     <h4>Summer Intern</h4>
                     <div className="splitContent">
@@ -129,6 +121,8 @@ class Resume extends Component {
                     </div>
                 </div>
 
+                <br/>
+                <br/>
                 <br/>
 
             </div>

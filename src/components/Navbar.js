@@ -11,7 +11,10 @@ function Navbar(){
     const [dropdown, setDropdown] = useState(false);
 
     const handleClick = () => setClick(!click);
-    const closeMobileMenu = () => setClick(false);
+    const closeMobileMenu = () => {
+        setClick(false);
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }
 
     const onMouseEnter = () => {
         if(window.innerWidth < 960){
@@ -28,7 +31,7 @@ function Navbar(){
 
     return (
         <nav className="navbar sticky">
-            <Link to="/" className='navbar-logo shocking' onClick={closeMobileMenu}> 
+            <Link to="/" className='navbar-logo' onClick={closeMobileMenu}> 
                 DONOVAN
             </Link>
             <div className="menu-icon" onClick={handleClick}>

@@ -14,7 +14,6 @@ class Home extends Component {
             splashText: "",
             splashAttribution: "",
             splashTextArray: [
-                "Rather than reasoning by analogy, you boil things down to the most fundamental truths you can imagine and you reason up from there.",
                 "It always seems impossible until it's done.",
                 "Shoot for the moon. Even if you miss, you'll land among the stars.",
                 "You just can't beat the person who never gives up.",
@@ -24,7 +23,6 @@ class Home extends Component {
                 "The secret of getting ahead is getting started."
             ],
             splashTextAuthorArray: [
-                "Elon Musk",
                 "Nelson Mandela",
                 "Les Brown",
                 "Babe Ruth",
@@ -57,7 +55,7 @@ class Home extends Component {
                     <div className="quoteSeg">
                         <br/><br/><br/><br/><br/><br/><br/><br/>
                         <br/><br/><br/><br/><br/><br/><br/><br/>
-                        <div className="multiLine + purpleText + outlinedText">
+                        <div className="multiLine + purpleText + outlinedText shocking">
                             <h1>SCROLL</h1>
                             <h1>DOWN!</h1>
                         </div>
@@ -124,7 +122,7 @@ class Home extends Component {
 
                 <div className="me14 title segmented">
                     <div className="quoteSeg">
-                        <h3 className="whiteText"> I really want to work with blockchain technology and machine learning.</h3>
+                        <h3 className="whiteText"> I love snowboarding, cooking, and chess, and I'm learning to play the guitar.</h3>
                     </div>
                     <div className="quoteSeg"></div>
                     <div className="quoteSeg"></div>
@@ -134,13 +132,12 @@ class Home extends Component {
                     <div className="quoteSeg"></div>
                     <div className="quoteSeg"></div>
                     <div className="quoteSeg">
-                        <h3 className="whiteText"> I love snowboarding, cooking, and chess.</h3>
+                        <h3 className="whiteText"> I also love my two cats, Aspen and Chicken Nugget &Sigma;:3 </h3>
                     </div>
                 </div>
 
                 <div className="me14 title segmented">
                     <div className="quoteSeg">
-                        <h3 className="whiteText"> I also love my kitten &lt;3. He's an orange tabby and his name is Chicken Nugget &Sigma;:3 </h3>
                     </div>
                     <div className="quoteSeg"></div>
                     <div className="quoteSeg"></div>
